@@ -1,13 +1,19 @@
 *{
 	box-sizing: border-box;
 }
-.user_nav { 
- display: flex;
-}
-.user_nav a{
-	padding: 20px 20px 0 0;
-	border-top: 1px solid grey;
-}
+body 
+  {
+  background-color: lightgrey;
+    font-family: arial;
+  font-size: 12px;
+  }
+
+  .container{
+    width: 1170px;
+    margin: auto;
+    padding: 34px;
+    background-color: white;
+  }
 .header {	
 display: flex;		
 }
@@ -16,6 +22,18 @@ display: flex;
     height: 160px;
     border: 3px solid black;
     border-radius: 50%;
+}
+.headerright{
+	align-self:center;
+	padding-left: 30px;
+    width: 100%;
+}
+.user_nav { 
+ display: flex;
+}
+.user_nav a{
+	padding: 20px 20px 0 0;
+	border-top: 1px solid grey;
 }
 .intro
   {
@@ -28,24 +46,47 @@ display: flex;
     text-decoration: none;
     border: 3px solid red; 
     padding: 6px 24px;
+	color: #c3f8ff;
   }
-body 
-  {
-  background-color: lightgrey;
-  }
-h2 {
-    padding: 0 10px 10px 0;
-   }
-p {
-  font-family: arial;
-  font-size: 20px;
-  }
-.edu_cla_head{
-  display: flex;  
+.skillov{
+	display: flex;
 }
-
+.skilllist{
+	display: flex;
+}
+.skillright{
+	padding-left: 30px;
+}
+.skilllist a{
+	padding: 10px 90px 0 0;
+	border-top: 1px;
+}
+.edu_cla1{
+	display:flex;
+}
+.edu_cla_head{
+  display: flex;
+}
+.edu_cla_headleft{
+	padding-left: 20px;
+	border-left: 2px solid grey;
+	margin-bottom: 20px;
+}
+.edu_cla_headleft h4,h5,h6{
+	margin: 0;
+}
+.edu_claright{
+padding-left: 30px;
+}
 .edu_cla_headright p{
 	background-color: darkgrey;
     text-align: center;
     padding: 35px 50px;
 }
+.projects1{
+	display: flex;
+}
+.projectsright{
+	padding-left: 30px;
+}
+
