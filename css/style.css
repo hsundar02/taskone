@@ -1,0 +1,51 @@
+*{
+	box-sizing: border-box;
+}
+.user_nav { 
+ display: flex;
+}
+.user_nav a{
+	padding: 20px 20px 0 0;
+	border-top: 1px solid grey;
+}
+.header {	
+display: flex;		
+}
+.header img{
+    width: 160px;
+    height: 160px;
+    border: 3px solid black;
+    border-radius: 50%;
+}
+.intro
+  {
+ padding: 10px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  }
+  .intro a{   
+    text-decoration: none;
+    border: 3px solid red; 
+    padding: 6px 24px;
+  }
+body 
+  {
+  background-color: lightgrey;
+  }
+h2 {
+    padding: 0 10px 10px 0;
+   }
+p {
+  font-family: arial;
+  font-size: 20px;
+  }
+.edu_cla_head{
+  display: flex;  
+}
+
+.edu_cla_headright p{
+	background-color: darkgrey;
+    text-align: center;
+    padding: 35px 50px;
+}
